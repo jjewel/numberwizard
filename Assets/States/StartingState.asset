@@ -10,6 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3aaf35cd72ee430483aca4612d9c507, type: 3}
-  m_Name: Room1
+  m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyText: This is Room 1
+  storyText: 'This is a story with multiple options
+
+
+    1: This way
+
+    2: That
+    way'
+  nextStates:
+  - {fileID: 11400000, guid: 17bfd8af95cb94d1d8b509f1090dd2b3, type: 2}
+  - {fileID: 11400000, guid: 32c3cf9965eba4549a4d292693b84755, type: 2}

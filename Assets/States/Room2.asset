@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Room2
   m_EditorClassIdentifier: 
   storyText: This is Room 2
+  nextStates: []
